@@ -17,3 +17,5 @@ Le cours de WEB et Base de données
 3. Liste de framework CSS :
     - Bootstrap
     - MDBootstrap
+
+<img src="http://cartman34.fr/wp-content/uploads/2017/01/sql_joins.jpg">
