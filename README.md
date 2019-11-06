@@ -68,3 +68,5 @@ Le cours de WEB et Base de données
         return 0; 
     } 
     ```
+    
+    6. Clean code (Livre pour bien coder)
