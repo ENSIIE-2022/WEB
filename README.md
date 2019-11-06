@@ -86,3 +86,12 @@ Peu de SQL au devoir
 9. == et ===
     == Vérifie l'égalité simple
     === Vérifie l'égalité du type en plus
+    
+10. Roadmap du développeur
+    https://github.com/kamranahmedse/developer-roadmap
+    
+11. Tableau de données [] et Hashmap {}
+
+12. Js = language prototypée
+
+13. Schéma des languages utilisés par front-end et back-end
