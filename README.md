@@ -69,4 +69,16 @@ Le cours de WEB et Base de données
     } 
     ```
     
-    6. Clean code (Livre pour bien coder)
+6. Clean code (Livre pour bien coder)
+
+Peu de SQL au devoir
+
+7. Différence Hashage et Cryptage
+    Hashage : Surjectif, on ne peut pas revenir en arrière
+    Cryptage : Bijectif, on peut revenir en arrière
+    
+8. SPA et PWA
+    SPA : <a href="http://www.opentuto.com/single-page-application/" target="_blank">Single Page Application</a>
+        SPA signifie Single Page Application, ou application  monopage en français, est une application web accessible via une page web unique. Le but est d’éviter le chargement d’une nouvelle page à chaque action demandée, et de fluidifier ainsi l’expérience utilisateur.
+    PWA : Progressive Web App
+        https://fr.wikipedia.org/wiki/Progressive_web_app
