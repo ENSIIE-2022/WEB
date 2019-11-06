@@ -82,3 +82,7 @@ Peu de SQL au devoir
         SPA signifie Single Page Application, ou application  monopage en français, est une application web accessible via une page web unique. Le but est d’éviter le chargement d’une nouvelle page à chaque action demandée, et de fluidifier ainsi l’expérience utilisateur.
     PWA : Progressive Web App
         https://fr.wikipedia.org/wiki/Progressive_web_app
+        
+9. == et ===
+    == Vérifie l'égalité simple
+    === Vérifie l'égalité du type en plus
