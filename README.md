@@ -107,6 +107,9 @@ simuler des connections avec des élements extérieurs (ex: DB ou API)...
                  
 15. Différence classe abstraite (comportement comumn, partagé : comment c'est fait ?) et interface (contrat)
 
-16. Hydrateurs
+16. Hydrateur : transforme un tableau en objet
 
 17. Schéma (Voir feuille dessin)
+
+18. Loi de Demeter (ou 'One Dot Rule') : je n'ai le droit de parler qu'avec mes voisins (=avec ses dépendances).
+    Chaîne de Demeter
