@@ -95,3 +95,13 @@ Peu de SQL au devoir
 12. Js = language prototypée
 
 13. Schéma des languages utilisés par front-end et back-end
+
+14. Continuous Integration (CI) :
+Aujourd'hui, des outils de CI sont intégrés à GitLab, GitHub, ...
+- Linter : permet de vérifier la syntaxe du code (mode check ou fix)
+- Analyzer : permet de vérifier le code flow et la sécurité 
+- Test : permet d'attester la qualité du programme, de vérifier qu'une fonctionnalité a le comportement attendu et qu'elle ne fait pas régresser le code (apparition de bugs non présents avant son implémentation), ...\
+mock : simule le comportement d'un objet impossible ou très difficle à incorporer au test. 
+Ex : simuler des comportements difficiles à créer ou reproduire (ex: erreurs réseau),
+simuler des connections avec des élements extérieurs (ex: DB ou API)...
+                 
