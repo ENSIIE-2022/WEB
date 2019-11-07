@@ -105,7 +105,7 @@ mock : simule le comportement d'un objet impossible ou très difficle à incorpo
 Ex : simuler des comportements difficiles à créer ou reproduire (ex: erreurs réseau),
 simuler des connections avec des élements extérieurs (ex: DB ou API)...
                  
-15. Différence classe abstraite et interface
+15. Différence classe abstraite (comportement comumn, partagé : comment c'est fait ?) et interface (contrat)
 
 16. Hydrateurs
 
