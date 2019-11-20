@@ -44,27 +44,15 @@ Le cours de WEB et Base de données
         int i; 
         for (i=1; i<=100; i++) 
         { 
-            // number divisible by 3 and 5 will 
-            // always be divisible by 15, print  
-            // 'FizzBuzz' in place of the number 
             if (i%15 == 0)         
-                printf ("FizzBuzz\t");     
-
-            // number divisible by 3? print 'Fizz' 
-            // in place of the number 
+                printf ("FizzBuzz\t");    
             else if ((i%3) == 0)     
-                printf("Fizz\t");                  
-
-            // number divisible by 5, print 'Buzz'   
-            // in place of the number 
+                printf("Fizz\t");       
             else if ((i%5) == 0)                        
-                printf("Buzz\t");                  
-
+                printf("Buzz\t");               
             else // print the number             
                 printf("%d\t", i);                  
-
         } 
-
         return 0; 
     } 
     ```
@@ -113,13 +101,13 @@ simuler des connections avec des élements extérieurs (ex: DB ou API)...
 
 18. Loi de Demeter (ou 'One Dot Rule') : je n'ai le droit de parler qu'avec mes voisins (=avec ses dépendances).\
     Chaîne de Demeter
+    
 19. Fonction callback 
     Fonction avec des paramètrres qui retourne une fonction sans paramètres
     ...
         Fonction principale {
         xhttp.onreadystatechange=createCallback("omega","lol");
         }
-
         function createCallback(x, m) {
             return function() {
                 /* Do whatever */
