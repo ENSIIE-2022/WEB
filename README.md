@@ -113,3 +113,17 @@ simuler des connections avec des élements extérieurs (ex: DB ou API)...
 
 18. Loi de Demeter (ou 'One Dot Rule') : je n'ai le droit de parler qu'avec mes voisins (=avec ses dépendances).\
     Chaîne de Demeter
+19. Fonction callback 
+    Fonction avec des paramètrres qui retourne une fonction sans paramètres
+    ...
+        Fonction principale {
+        xhttp.onreadystatechange=createCallback("omega","lol");
+        }
+
+        function createCallback(x, m) {
+            return function() {
+                /* Do whatever */
+            };
+        }
+    ...
+    
